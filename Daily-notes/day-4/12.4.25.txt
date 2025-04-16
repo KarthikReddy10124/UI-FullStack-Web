@@ -1,0 +1,42 @@
+Division: Division is used to divide the whole web page into different blocks. 
+In otherwise, used to group set of html elements into one unit.
+
+    Syntax:
+
+        <div>
+
+            Children elements
+        
+        </div>
+
+Background Image: Displays image as a background.
+
+    Syntax:
+
+        background-image: url(imageName.ext);
+
+    Note: Background Image height and width will depend on foreground content size.
+
+Background Size: Specifies the size of the background.
+
+    Syntax:
+
+        background-size: 100px 200px | 10% 100% | cover;
+
+        cover - It covers whole foreground content size.
+
+Background Position: Specifies the position of the background.
+
+    Syntax:
+
+        background-position: top left | top center | top right | bottom left | bottom center | bottom right | center center;
+
+Background Repeat: Allows us to control the repeation of background.
+
+    Syntax:
+
+        background-repeat: no-repeat | repeat | repeat-x | repeat-y;
+
+Task: Design banner two portions of the web page, one below another.
+
+https://preview.colorlib.com/theme/oakberry/

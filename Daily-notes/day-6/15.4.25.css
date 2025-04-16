@@ -1,0 +1,63 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#container {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 50px;
+}
+#inner-container {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 30px;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    padding: 15px 0px;
+}
+
+#logo, #menu-links, #menu-icons, #menu-links li {
+    float: left;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#menu-links li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#logo {
+    width: 20%;
+}
+
+#menu-links {
+    width: 55%;
+}
+
+#menu-icons {
+    padding-top: 16px;
+    width: 14%;
+}
+
+#menu-icons i {
+    padding: 0px 10px;
+}
+
+#shop-now {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+#shop-now p {
+    margin: 0px;
+}
+#shop-now a {
+    color: #cebd9c;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+web application: Static + dynamiccontent
+
+    Static content: Contnt whic will not change over a time. (HTML & CSS)
+    Dynamic content: Contnt whic will change over a time. (JavaScript & Database)
+
+HTML: Hyper text markup language.
+    > it is used to display contnt in the web pages. (Header, Paragraph, 
+
+
+
+
+
+> Usually html source code we will write in file with a extension .html
+
+    filename.html
+
+IDE (Integreted Developmant Environment): Used to write the source of the technaolgy.
+    Visual studio code (VSC)
+
+Step 1 Downlosd VSC using the link 
+
+    https://code.visualstudio.com/download
+
+step 2 download click on file which is  wd

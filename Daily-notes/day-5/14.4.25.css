@@ -1,0 +1,22 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    /* color: #b8c14f; */
+    /* color: rgb(184, 193, 79); */
+    color: hsl(117, 51%, 70%);
+}
+/* 
+ol {
+    list-style-type: none;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+}

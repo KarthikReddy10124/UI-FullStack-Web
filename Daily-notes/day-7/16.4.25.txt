@@ -1,0 +1,50 @@
+Semantic Element: A eement which is specifying the purpose of it, is called semantic element.
+
+HTML5:
+
+    nav-Navigation bar
+
+        syntax:
+
+            <nav></nav>
+
+    header-header
+
+        syntax:
+
+            <header></header>
+            
+
+    footer-footer
+
+        syntax:
+
+            <footer></footer>
+    aside - side Navigation bar
+
+        syntax:
+
+            
+    section - A portion of web page
+
+        syntax: 
+            
+
+
+Tables: Collection of rows and columns.
+
+syntax:
+<table>
+    <thead>
+        <tr>
+            <th>Heading</th>
+            <th>Heading</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+    </tbody>
+</table>

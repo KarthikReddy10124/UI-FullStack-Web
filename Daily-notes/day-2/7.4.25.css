@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+}
+h1 {
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+p {
+    color: red;
+    font-size: 14px;
+}
+
+#academic-students {
+    color: yellow;
+    font-size: 20px;
+}
+
+#humble-begining {
+    color: azure;
+    background-color: brown;
+}
+
+.header {
+    background-color: aliceblue;
+    color: bisque;
+}
+
+.para {
+    color: brown;
+}

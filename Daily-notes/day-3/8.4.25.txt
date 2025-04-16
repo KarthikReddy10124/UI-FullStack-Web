@@ -1,0 +1,116 @@
+Id Attribute: It's predefined attribute of HTML, 
+used to refer a particular html element.
+> Across the file id should be unique.
+> Every letter of id, should be lower case, and each word needs to 
+seggregated from other word using '-'.
+
+    Syntax:
+
+        HTML:
+
+            <tagName id="id-name"></tagName>
+
+        CSS:
+
+            #id-name {
+                key1: value1;
+                key2: value2;
+            }
+
+Class: Using class, we can refer more than one html element in css file. 
+
+    Syntax:
+
+        HTML:
+
+            <tagName class="class-name1 class-name2"></tagName>
+
+        CSS:
+
+            .class-name {
+                key1: value1;
+                key2: value2;
+            }
+
+> We can apply multiple class names for a particular html element.
+
+    Syntax:
+
+        <tagName class="class-name1 class-name2 class-name3   class-nameN"></tagName>
+
+            font-size: 14px;
+            font-weight: bold;
+
+Border: Applies border for html elements.
+
+    Syntax:
+
+    Approach 1:
+
+        border-width: 2px;
+        border-style: solid | dotted | dashed;
+        border-color: red | green | yellow;
+
+    Approach 2:
+
+        border: border-width border-style border-color;
+
+        border-top: border-width border-style border-color;
+
+        border-left: border-width border-style border-color;
+
+        border-right: border-width border-style border-color;
+
+        border-bottom: border-width border-style border-color;
+
+Padding: Padding applies empty space between border and content.
+
+    Syntax:
+
+    Approach1: Applies same on four different directions
+
+        padding: 20px;
+
+    Approach2: Applies same value left & right and top & bottom
+
+        padding: 15px 30px; (top & bottom left & right)
+
+    Approach3: Applies different values on four different directions.
+
+        padding: 10px 12px 14px 15px (Clock wise top right bottom left)
+
+    Approach4: Applies value on a particular direction.
+
+        padding-left: 20px;
+
+        padding-right: 20px;
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+Margin: Applies empty space between border and other html element.
+
+Syntax:
+
+    Approach1: Applies same on four different directions
+
+        margin: 20px;
+
+    Approach2: Applies same value left & right and top & bottom
+
+        margin: 15px 30px; (top & bottom left & right)
+
+    Approach3: Applies different values on four different directions.
+
+        margin: 10px 12px 14px 15px (Clock wise top right bottom left)
+
+    Approach4: Applies value on a particular direction.
+
+        margin-left: 20px;
+
+        margin-right: 20px;
+
+        margin-top: 20px;
+
+        margin-bottom: 20px;

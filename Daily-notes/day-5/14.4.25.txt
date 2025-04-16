@@ -1,0 +1,122 @@
+Color Codes:
+1. HEX Codes (Most used one)
+2. RGB
+3. HSL
+
+1. HEX Codes:
+
+    #000000 - #FFFFFF (Hexa Decimal Format)
+
+    First two values - Red
+    Second two values - Green
+    Third two values - Blue
+
+    #0671E0
+
+2. RGB 
+
+    Syntax:
+
+        rgb(value1, value2, value3)
+
+        r - Red
+        g - Green
+        b - Blue
+
+    Value range: 0, 0, 0 - 255, 255, 255
+
+3. HSL 
+
+    H - Hue (Specifies the color) - [0 - 360 degrees]
+
+        0 - 120 - Red
+        121 - 240 - Green
+        241 - 360 - Blue
+
+    S - Saturation (Increases the thickness of the color)
+    L - Lightness (Increase the lightness of the color)
+
+    Syntax:
+
+        hsl(number, percentage, percentage);
+
+Text Formatting Tags:
+
+1. Bold (b)
+
+    Syntax:
+
+        <b>Content</b>
+
+        font-weight: normal | bold;
+
+2. Italic (i)
+
+    Syntax:
+
+        <i>Content</i>
+
+3. Mark (mark)
+
+    Syntax:
+        <mark>Content</mark>
+
+4. Underline (u)
+
+    Syntax:
+        <u>Content</u>
+
+        text-decoration: none | underline;
+
+5. Small (small) - Reduces the size of the Text
+
+    Syntax:
+        <small>Content</small>
+
+        font-size: 
+
+6. Deletion (del)
+
+    Syntax:
+        <del>Content</del>
+
+List: Collection of similar content visible on web page.
+1. Ordered List
+2. Unordered List
+
+Ordered List:
+
+    Syntax:
+
+        <ol type="A | a | 1 | I | i">
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+        </ol>
+
+        li - List Item
+
+
+        list-style-type: none
+
+Unordered List:
+
+    Syntax:
+
+        <ul>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+            <li>Content</li>
+        </ul>
+
+        list-style-type: disc | circle | square | none;
+
+Span: Used to highlight a portion of a content.
+
+    Syntax:
+
+        <span>Content</span>

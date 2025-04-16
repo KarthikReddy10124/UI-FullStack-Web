@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+.text-center {
+    text-align: center;
+}
+#placed-students {
+    border: 1px solid black;
+    margin: 20px;
+}
+.student-card {
+    width: 250px;
+    border: 1px solid black;
+    margin: 30px;
+}
+.student-card div {
+    padding-left: 20px;
+}
+.student-card img {
+    width: 100%;
+}
+#office-icon {
+    width: 30px;
+}
+
+#welcome-to-consolve {
+    background-image: url('https://preview.colorlib.com/theme/consolution/images/bg_1.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#welcome-to-consolve div {
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
+    padding: 14rem;
+}

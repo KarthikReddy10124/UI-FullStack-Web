@@ -1,0 +1,95 @@
+CSS: Used to apply styles to the HTML Tags.
+> CSS stands for Cascading Style Sheets.
+> Every browser has predefined CSS Complier, So no need of installing it seperately.
+> CSS consists of predefined key-value pairs.
+
+    Eg. color: red
+
+        color - key
+
+        red | green | blue | black | white - value
+
+        font-size: 14px (pixels)
+
+        background-color: blue
+
+        font-family: Arial
+
+> File extension:
+
+    filename.css
+
+> CSS can be written in 3 different ways:
+1. Inline StyleSheet
+2. Internal StyleSheet
+3. External StyleSheet (Used for Application in Real Time)
+
+# External Stylesheet: Writing css in a seperate file is called external stylesheet.
+
+    filename.css
+
+    selector {
+        key1: value1;
+        key2: value2;
+        key3: value3;
+
+        keyN: valueN;
+    }
+
+
+    filename.html
+
+    <head>
+        
+        Used to link css properties to html elements
+
+        <link rel="stylesheet" href="filename.css">
+
+    </head>
+
+        rel - Relation
+
+        href - Hyper Reference
+
+Id Attribute: Using id, we can refer each indivdual html tag in css.
+
+    Syntax:
+
+        HTML:
+
+        <tagName id="id-name"></tagName>
+
+        CSS:
+
+            #id-name {
+                property: value;
+            }
+
+    
+    Note: Every id which is created html file, should be lower case and every word needs to seggregated from other word using '-'.
+
+    Egs:
+        
+        close-button
+
+        register-user
+
+Class Attribute: Used to refer one than one html tag.
+
+    Syntax:
+
+        HTML:
+
+            <tagName class="class-name"></tagName>
+
+        CSS:
+
+            .class-name {
+                property: value;
+            }
+
+Note:
+
+Tag - Refers every html element.
+Class - Refers to a group of html elements.
+Id - Refers to a specific element.

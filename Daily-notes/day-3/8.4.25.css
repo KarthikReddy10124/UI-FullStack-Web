@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+#exploring-css {
+    font-size: 30px;
+    color: skyblue;
+}
+
+.browse-by-domains {
+    font-size: 20px;
+    font-weight: bold;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: blue; */
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+#enroll {
+    background-color: skyblue;
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+#share {
+    border: 1px solid black;
+    font-size: 14px;
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px; */
+    padding: 15px 28px 18px 35px;
+}

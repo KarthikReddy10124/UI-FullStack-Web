@@ -1,0 +1,37 @@
+UI Full Stack with React
+Js
+
+Web site & Web Application A application is which visible in web browser
+like Google Chrome, Safari, Mozilla Firefox etc
+Website: If a application is only static content.
+
+Web application: Application which is having both static & dynamic conten
+
+Eg. E-commerce applications like Flipkart, Amazon, Myntra, Ajio etc
+
+Banking applications like HDFC Netbanking, SBI, ICICI
+
+
+
+
+
+
+
+
+Frontend
+
+
+Web Application is divided into 3 modules
+
+
+1. Frontend Build User Interface
+
+
+2. Backend Build APIs -Urls
+
+
+3. Database Store application data permanently
+
+HTTPS Protocol Set of instructions Used to transfer information from
+
+one server to another server.

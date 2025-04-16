@@ -1,0 +1,38 @@
+Types of HTML Elements
+1. Block Elements: Element which is occupying parent element size is called block element.
+
+    Eg. headers, paragraph, div, list (ul & ol)
+
+2. Inline Elements: Element which is occupying content size is called inline element.   
+
+    Eg. anchor, text formatting elements, image, span
+
+Inorder to config fontawesome library into html file
+
+Step1: Include below link tag in head tag of html file
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+Step2: Search for the icon in fontawesome.com website
+
+Step3: Copy the icon from fontawesome library.
+
+Fontawesome Reference Link: https://cdnjs.com/libraries/font-awesome
+
+Float: Using float, we can convert block element into inline element.
+
+    Syntax:
+
+        float: left | right;
+
+        left: It starts displaying the elements from left side.
+
+        right: It starts displaying the elements from right side.
+
+> Reference link to install chrome extension - Color Picker - Eye Dropper
+
+https://chromewebstore.google.com/detail/color-picker-eye-dropper/gogbiohkminacikoppmljeolgccpmlop
+
+Task: Design Navigation bar of Farmie website.
+
+https://preview.colorlib.com/theme/farmie/
