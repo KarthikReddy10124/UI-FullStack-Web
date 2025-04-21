@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#choose-a-plan {
+    padding: 30px 8rem;
+}
+.plan {
+    border: 1px solid gray;
+    border-radius: 8px;
+    /* margin: 10px; */
+    padding: 20px;
+    width: 27%;
+    /* flex: 1; */
+}
+#choose-a-plan > h1 {
+    text-align: center;
+}
+.plan a {
+    border: 1px solid #4294f2;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #4294f2;
+    cursor: pointer;
+}
+.plan a:hover {
+    background-color: #4294f2;
+    color: white;
+}
+#starter-plan h1 {
+    color: #09ab78;
+}
+#business-plan h1 {
+    color: #f27e42;
+}
+#premium-plan h1 {
+    color:#4294f2;
+}
+#business-plans {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: 1000px; */
+    align-items: flex-start;
+    gap: 20px 20px;
+}
+#starter-plan {
+    order: 3;
+    /* flex: 0.25; */
+}
+#business-plan {
+    order: 1;
+    /* flex: 0.25; */
+}
+#premium-plan {
+    order: 2;
+    /* flex: 0.5; */
+}
+#why-we-are-different {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    column-gap: 15px;
+}

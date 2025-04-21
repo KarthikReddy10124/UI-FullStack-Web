@@ -1,0 +1,53 @@
+Positions: Using position, we can change the position from one to another.
+
+    Syntax:
+
+        position: relative | absolute
+
+        relative: We can a element from one position to another position.
+
+        relative + absolute: A child element can be moved from one position to another position by taking 
+                             reference of parent element.
+                            
+Media Inserting Tags:
+1. Audio
+2. Video
+3. Iframe
+4. Picture
+5. Embed
+
+Iframe: Plays youtube videos in web sites.
+
+    Syntax:
+
+        <iframe src="https://youtube.com/embed/youtube-id?autoplay=1&mute=1&controls=0"></iframe>
+
+Audio: Plays audio files in the websites.
+
+    Syntax:
+
+        <audio controls>
+            <source src=""></source>
+        </audio>
+
+Video: Plays video files in the websites.
+
+    Syntax:
+
+        <video controls>
+            <source src=""></source>
+        </video>
+
+Embed: Used to display images in the webpage
+
+    Syntax:
+
+        <embed type="image/png" src=""/>
+
+Picture: Used to display images in the web page.
+
+    Syntax:
+
+        <picture>
+            <source srcset="image.png"/>
+        </picture>

@@ -1,0 +1,142 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+/* p {
+    font-size: 16px;
+    width: 500px;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: bold;
+}
+p::selection {
+    background-color: blueviolet;
+    color: white;
+}
+p::first-line {
+    color: brown;
+    font-size: 20px;
+}
+p::after {
+    content: '$';
+    padding-right: 5px;
+}
+ul {
+    list-style-type: none;
+}
+li::before {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  content: '\f689';
+} */
+
+header {
+    background-image: url('https://preview.colorlib.com/theme/oakberry/images/bg_1.jpg.webp');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+header div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4rem 20rem;
+}
+header h1 {
+    font-size: 3.75rem;
+}
+header p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+header a {
+    background-color: #5ea51d;
+    color: white;
+    padding: 16px 30px;
+    text-decoration: none;
+}
+#whatsapp-icon {
+    background-color: #67d449;
+    color: white;
+    font-size: 24px;
+    padding: 12px 14px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+}
+
+#message-icon {
+    background-color: #ff0000;
+    color: white;
+    font-size: 22px;
+    padding: 12px 14px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+#shop-now {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+#shop-now p {
+    margin: 0px;
+}
+#shop-now a {
+    color: #cebd9c;
+    font-weight: bold;
+}
+#container {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 50px;
+}
+#inner-container {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 30px;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    padding: 15px 0px;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+#logo, #menu-links, #menu-icons, #menu-links li {
+    float: left;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#menu-links li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#logo {
+    width: 20%;
+}
+
+#menu-links {
+    width: 55%;
+}
+
+#menu-icons {
+    padding-top: 16px;
+    width: 14%;
+}
+
+#menu-icons i {
+    padding: 0px 10px;
+}

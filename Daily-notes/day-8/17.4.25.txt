@@ -1,0 +1,38 @@
+Pseudo Elements/Selectors: Using pseudo elements, we can style specific portions of an element.
+
+    Syntax:
+
+        selector::pseudo-element {
+            property1: value1;
+            property2: value2;
+        }
+
+Types:
+1. first-line: Used to style first line of an element.
+2. first-letter: Used to style first letter of an element.
+3. before: Used to add content before the actual content of element.
+4. after: Used to add content after the actual content of an element.
+5. selection: Used to style content when we select it.
+
+Before Pseudo Element can also be used to display fontawesome icons.
+
+    Syntax:
+
+        font-family: 'Font Awesome 6 Free';
+        content: '\f689';
+
+        f689 - Unicode provided fontawesome library.
+
+Positions: Using position, we can change or specify the position of an element.
+
+    Syntax:
+
+        position: fixed | sticky | relative | absolute;
+
+        fixed - It will fix the element to the viewport.
+        sticky - It will fix the element to the browser only when we reach to the element.
+
+            top
+            left
+            right
+            bottom

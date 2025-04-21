@@ -1,0 +1,83 @@
+Flexbox:
+> Flexbox is introduced is CSS3 Version.
+> Using flex we can display child elements either side by side or one below another.
+
+Syntax:
+
+    <div id="parent-container">
+        <div class="child-container"></div>
+        <div class="child-container"></div>
+        <div class="child-container"></div>
+    </div>
+
+#parent-container
+
+display: flex; - Converts block elements into inline elements.
+
+> flex-direction: It specifies in which direction child elements needs to be displayed.
+
+    Syntax:
+
+        flex-direction: row (default) | row-reverse | column | column-reverse;
+
+            row - Displays child elements from left to right
+
+            row-reverse - Displays child elements from right to left
+
+            column - Displays child elements from top to bottom
+
+            column-reverse - Displays child elements bottom to top
+
+> flex-wrap: It specifies whether to display content in a single row or multiple rows.
+
+    Syntax:
+
+        flex-wrap: nowrap (default) | wrap | wrap-reverse;
+
+            nowrap : Displaying in single row
+
+            wrap - Displays in multiple rows from start to end.
+
+            wrap-reverse: Displays in multiple rows from end to start.
+
+> justify-content: Aligns content in different positions horizantly.
+
+    Syntax:
+
+        justify-content: flex-start (default) | flex-end | center | space-between | space-evenly | space-around;
+
+> Align-items: Aligns content in different positions vertically.
+
+    Syntax:
+
+        align-items: flex-start | flex-end | stretch (default) | center;
+
+> Gap: Aligns gap between each element in a row or column.
+
+    Syntax:
+
+        gap: column-gap row-gap;
+
+            column-gap: 10px;
+            row-gap: 10px;
+
+Child Properties:
+
+> Order: We can change the order of the elements.
+
+    Syntax:
+
+        order: 1 | 2 | 3;
+
+> Flex: Using flex, we can specify size of the element.
+
+    1 - 100%
+
+    To divide two equal parts
+
+      First Element - 0.5 
+      Second Element - 0.5
+
+Task: Display resturants list with online food delivery of swiggy application:
+
+https://www.swiggy.com/restaurants
