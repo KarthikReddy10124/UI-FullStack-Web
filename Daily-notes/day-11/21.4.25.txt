@@ -1,0 +1,59 @@
+Display: 
+
+    Syntax:
+
+        display: flex | inline | block | none;
+
+        inline - Shows the element as a inline element.
+
+        block - Shows the element as a block element.
+
+        none - Hides the element from user.
+
+Forms: Forms used to get information from the customer in different ways.
+
+> Input: Used to get inputs from the user.
+
+    Syntax:
+
+        <form>
+            <label>Content</label>
+            <input type="text | email | password | radio | checkbox | file | date | datetime-local | button"/>
+        </form>
+
+> Select: Used to a select a value from the available options
+
+    Syntax:
+
+        <select>
+            <option>Select</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+
+> Textarea: Using this we can enter input in different rows and columns.
+
+    Syntax:
+
+        <textarea rows="5" cols="5"></textarea>
+
+> Button: Used to perform some action when user clicks on it.
+
+    Syntax:
+
+        <button>Content</button>
+
+Form Validations:
+
+required - Used to make form field mandatory
+
+minlength - To specific minimum no of characters which needs to be entered.
+
+maxlength - Maximum no of characters which can be inserted in the input.
+
+novalidate - HTML complier, will not validate the form fields, if we add novalidate attribute for form tag.
+
+Task: Design User Registration Page of IRCTC App.
+
+https://www.irctc.co.in/nget/profile/user-signup

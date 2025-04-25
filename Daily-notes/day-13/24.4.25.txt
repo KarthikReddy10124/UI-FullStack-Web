@@ -1,0 +1,135 @@
+Flexbox: Displays HTML elements either in row or column format. 
+> It is one dimensional layout.
+
+Grid: Displays HTML elements into rows and columns format.
+> It is two dimensional layout.
+
+    Syntax:
+
+        display: grid;
+
+grid-template-columns: Specifies no of columns.
+
+    Syntax:
+
+        grid-template-columns: 50px 50px 50px;
+
+grid-template-rows: Specifies no of rows.
+
+    Syntax:
+
+        grid-template-rows: 50px 50px 50px;
+
+
+> Value can be in pixels and fractions.
+
+> minmax(minimumValue, maximumValue)
+
+> grid-row-start: Specifies starting point of a row.
+
+    grid-row-start: 1;
+
+> grid-row-end: Specifies ending point of a row.
+
+    grid-row-end: 1;
+
+> grid-column-start: Specifies starting point of a column.
+
+    grid-column-start: 1;
+
+> grid-column-end: Specifies ending point of a column.
+
+    grid-column-end: 1;
+
+> grid-row: Specifies starting and ending point of row.
+
+    grid-row: starting-point / ending-point;
+
+> grid-column: Specifies starting and ending point of column.
+
+    grid-column: starting-point / ending-point;
+
+> grid-area: Specifies starting and ending point of column and row.
+
+    grid-area: row-start / column-start / row-end / column-end;
+
+> grid-template-areas: Specifies no of rows and columns.
+
+    grid-templatea-areas:
+        'row1-column1 row1-column2'
+        'row2-column1 row2-column2'
+        'row3-column1 row3-column2'
+        ;
+
+> gap: Specifies gap between each row and column.
+
+    Syntax:
+
+        gap: x-axis y-axis;
+
+        row-gap: 0px;
+
+        column-gap: 0px;
+
+> justify-items: Aligns the element horizantly.
+
+    Syntax:
+
+        justify-items: flex-start | flex-end | center;
+
+> align-items: Aligns the element vertically.
+
+    Syntax:
+
+        align-items: flex-start | flex-end | center;
+
+Media Queries: Provides responsiveness for the website/web application.
+
+Responsiveness: Indicates making application comparitable in every device like mobiles, tablets, desktops, projectors etc...
+
+    Syntax:
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            selector {
+                property1: value1;
+                property2: value2;
+                property3: value3;
+            }
+        }
+        
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) and (max-width:768px) {
+            selector {
+                property1: value1;
+                property2: value2;
+                property3: value3;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (max-width:992px) {
+            selector {
+                property1: value1;
+                property2: value2;
+                property3: value3;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) and (max-width:1200px) {
+            selector {
+                property1: value1;
+                property2: value2;
+                property3: value3;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            selector {
+                property1: value1;
+                property2: value2;
+                property3: value3;
+            }
+        }

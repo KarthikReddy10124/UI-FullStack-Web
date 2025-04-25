@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="21.4.25.css" />
+</head>
+
+<body>
+
+    <!-- <h1>Introduction to HTML</h1>
+
+    <span>Introduction to HTML</span> -->
+
+    <div id="registration-form">
+        <div>
+            <h1>Registration Form</h1>
+
+            <form>
+
+                <div class="form-field">
+                    <label>Firstname</label>
+                    <input type="text" placeholder="Enter Firstname" />
+                </div>
+
+                <div class="form-field">
+                    <label>Lastname</label>
+                    <input type="text" placeholder="Enter Lastname" required minlength="2" maxlength="30"/>
+                </div>
+
+                <div class="form-field">
+                    <label class="flex"><span>Email</span><span id="asterick">*</span></label>
+                    <input type="email" placeholder="Enter Email" required />
+                </div>
+
+                <div class="form-field">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" required/>
+                </div>
+
+                <div class="form-field">
+                    <label>Gender</label>
+                    <div>
+                        <input type="radio" name="gender" checked />Male
+                        <input type="radio" name="gender" />Female
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label>Languages Known</label>
+                    <div>
+                        <input type="checkbox" name="languages-known" />Telugu
+                        <input type="checkbox" name="languages-known" />Kannada
+                        <input type="checkbox" name="languages-known" />English
+                        <input type="checkbox" name="languages-known" />Urdu
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label>City</label>
+                    <select>
+                        <option>Select City</option>
+                        <option>Hyderabad</option>
+                        <option>Bangalore</option>
+                        <option>Chennai</option>
+                        <option>Pune</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label>Date of Birth</label>
+                    <input type="datetime-local" name="date-of-birth" />
+                </div>
+
+                <div class="form-field">
+                    <label>Resume</label>
+                    <input type="file" multiple accept="application/pdf"/>
+                </div>
+
+                <div class="form-field">
+                    <label>Describe me:</label>
+                    <textarea rows="5"></textarea>
+                </div>
+
+                <button>Register</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

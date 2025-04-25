@@ -1,0 +1,101 @@
+CSS3
+
+Translate: Using this, we can move a HTML element from one position to another position.
+
+    Syntax:
+
+        translate: x-axis y-axis;
+
+        transform: translate(x-axis, y-axis);
+
+        transform: translateX(0px);
+
+        transform: translateY(0px);
+
+        transform: rotate(30deg);
+
+Transition: Using transitions, we can change value of a css property from one value to another value smoothly.
+
+    Syntax:
+
+        transition: 
+
+            transition-property: margin | padding | all;
+
+            transition-duration: 2px;
+
+            transition-timing-function: ease | ease-in | ease-out | ease-in-out | linear; (Speed Curve)
+
+Animations: We can change value from one to another and another to another value.
+
+    5px -> 8px -> 12px -> 5px
+
+    Syntax:
+
+        selector {
+            animation-name: customName;
+            animation-duration: 2s;
+            animation-timing-function: ease | ease-in | ease-out | linear | ease-in-out;
+            animation-direction: normal | reverse | alternate;
+            animation-count: 2 | infinite;
+        }
+
+        @keyframes customName {
+            from {
+                property1: value1;
+            }
+            to {
+                property1: value2;
+            }
+
+        }
+
+        0s - 1s;
+
+        @keyframes customName {
+            0% {
+                property1: value1;
+            }
+            50% {
+                property1: value2;
+            }
+            100% {
+                property1: value3;
+            }
+
+        }
+
+         @keyframes customName {
+            0% {
+                property1: value1;
+            }
+            25% {
+                property1: value2;
+            }
+            50% {
+                property1: value3;
+            }
+            75% {
+                property1: value4;
+            }
+            100% {
+                property1: value5;
+            }
+        }
+
+Animations:
+
+Library Link:
+https://animate.style/
+
+Library Import link:
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+Syntax:
+<h1 class="animate__animated animate__bounce">An animated element</h1>
+
+Spinner Library Link:
+https://cssloaders.github.io/
